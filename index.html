@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#1A1A1A" />
+  <title>Beratungstermin auf der Consumenta 2026 · SPA Deluxe</title>
+  <meta name="description" content="Reservieren Sie Ihren Beratungstermin am Stand von SPA Deluxe auf der Consumenta Nürnberg, 31.10. bis 08.11.2026. Freikarte für zwei Personen, Messepreis bis zu 30 Prozent auf ausgewählte Modelle, kein Kaufzwang." />
+  <link rel="canonical" href="https://consumenta.spadeluxe.de/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Ihr Beratungstermin auf der Consumenta: reserviert, mit Freikarte und Messepreis." />
+  <meta property="og:description" content="31.10. bis 08.11.2026, Messe Nürnberg, Halle 4. Slot reservieren, Freikarte nach dem Gespräch, Messepreis bis zu 30 Prozent auf ausgewählte Modelle." />
+  <meta property="og:image" content="https://consumenta.spadeluxe.de/assets/consumenta/hero.jpg" />
+  <meta property="og:image:width" content="1600" />
+  <meta property="og:image:height" content="1067" />
+  <meta property="og:locale" content="de_DE" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="consumenta.css" />
+
+  <!--
+    Consumenta 2026, Stand 22.10.2026 (Fassung nach Sergejs Freigabe).
+    Technik wie die Bauherren-Seite: ../styles.css, ../app.js (Einwilligung, Messung, Zoho Web-to-Lead,
+    Erfolgsanzeige, PLZ zur Ausstellung). consumenta.js ergänzt Countdown, freie Slots, Interesse und Herkunft
+    (als Text in „Description") und die Bestätigung.
+    Festlegungen SPA Deluxe (22.10.2026): Slot statt fester Uhrzeit, Termin wird am Telefon abgestimmt;
+    Freikarten-Code schickt der Berater nach dem Gespräch; Messepreis bis zu 30 Prozent auf ausgewählte Modelle,
+    nur während der Messe (bis 08.11.2026); Messe-Paket bei Bestellung am Stand: Einstiegstreppe 199 €,
+    Ersatzfilter 149 €, Pflegeset 249 €, Thermoabdeckung mit Coverlifter 1.098 € (zusammen 1.695 €);
+    Lieferung und Einweisung sind nicht Teil des Pakets; keine Saunen am Stand; Lieferzeit drei bis sechs Wochen.
+    Freie Slots: consumenta.js zeigt je Besucher eine Zahl, die mit den Tagen sinkt (Start 7, Minimum 3), siehe SLOTS.
+    Zoho: Webformular „Consumenta-LP Beratungstermin" mit Lead Source „Lead: Consumenta"; solange xnQsjsdp
+    mit TODO beginnt, sendet app.js nichts und zeigt nur die Bestätigung.
+    Vorschau: ?vorschau=danke zeigt die Bestätigung, ?vorschau=formular setzt zurück, ?ohne=cookies blendet
+    das Banner aus, ?ohne=header die feste Kopfzeile (für Bildschirmfotos).
+  -->
+</head>
+<body>
+
+
+<!-- ============================================================
+     STICKY SITE-HEADER (reveal nach Hero)
+     ============================================================ -->
+<header class="site-header" id="site-header" aria-hidden="true">
+  <div class="site-header-inner">
+    <a href="#top" aria-label="Zum Seitenanfang">
+      <img src="assets/logo-white.png" alt="SPA Deluxe" class="logo" width="120" height="26" />
+    </a>
+
+    <div class="header-center">
+      <div class="reviews compact" aria-label="Google-Bewertungen: 4,8 von 5 Sternen aus über 560 Bewertungen">
+        <span class="stars" aria-hidden="true">
+          <svg class="star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg class="star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg class="star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg class="star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg class="star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </span>
+        <span class="rating">4,8</span>
+        <span class="count">· 560+ Bewertungen</span>
+      </div>
+    </div>
+
+    <div class="header-cta">
+      <a href="tel:+4925974753015" class="btn btn-call" data-cta="header-call" aria-label="Anrufen 02597 4753015">
+        <svg class="icon-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span class="btn-call-text">02597 4753015</span>
+      </a>
+      <a href="#termin" class="btn btn-primary" data-cta="header-primary">Termin reservieren</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============================================================
+     HERO · Angebot in einem Satz, Foto vom Stand
+     ============================================================ -->
+<section class="hero hero--messe" id="top">
+  <div class="hero-wrap">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <p class="kicker">Consumenta Nürnberg · 31. Oktober bis 8. November 2026</p>
+
+        <h1>Ihr Beratungstermin auf der Consumenta.</h1>
+
+        <p class="hero-sub">
+          Reservieren Sie Ihren Slot, ein Whirlpool-Berater hält ihn Ihnen am Stand frei. Den genauen Termin besprechen Sie am Telefon.
+        </p>
+
+        <ul class="hero-vorteile">
+          <li><span class="check" aria-hidden="true">✓</span><span>Eintritt frei für zwei Personen, den Code schickt Ihr Berater nach dem Gespräch per E-Mail</span></li>
+          <li><span class="check" aria-hidden="true">✓</span><span>Messepreis bis zu 30 Prozent auf ausgewählte Modelle, nur während der Messe</span></li>
+          <li><span class="check" aria-hidden="true">✓</span><span>Messe-Paket im Wert von 1.695 € bei Bestellung am Stand: Treppe, Ersatzfilter, Pflegeset und Thermoabdeckung mit Coverlifter</span></li>
+          <li><span class="check" aria-hidden="true">✓</span><span>Kein Kaufzwang, Ihr Angebot nehmen Sie schriftlich mit</span></li>
+        </ul>
+
+        <div class="cta-row">
+          <a href="#termin" class="btn btn-primary btn-arrow" data-cta="hero-primary">Termin reservieren</a>
+          <a href="#reservierung" class="hero-link" data-cta="hero-secondary">Was Sie bekommen</a>
+        </div>
+
+        <p class="hero-proof"><span class="stars" aria-hidden="true">★★★★★</span> 4,8 bei Google · über 560 Bewertungen</p>
+      </div>
+
+      <div class="hero-media">
+        <div class="media-slot">
+          <picture>
+            <source media="(max-width: 767px)" srcset="assets/consumenta/hero-mobile.jpg" />
+            <img src="assets/consumenta/hero.jpg" alt="Beraterin von SPA Deluxe lehnt am Messestand an einem befüllten Whirlpool" width="1600" height="1067" loading="eager" decoding="async" fetchpriority="high" />
+          </picture>
+          <span class="media-caption">Unser Stand auf der Consumenta 2025</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Die Messe auf einen Blick: Datum, Ort, freie Termine, Countdown. Zahlen setzt consumenta.js. -->
+    <dl class="messe-fakten" aria-label="Die Messe auf einen Blick">
+      <div class="fakt"><dt>Wann</dt><dd>Sa. 31.10. bis So. 08.11.2026<small>täglich 10 bis 18 Uhr</small></dd></div>
+      <div class="fakt"><dt>Wo</dt><dd>Messe Nürnberg<small>Halle 4, Stand B19</small></dd></div>
+      <div class="fakt"><dt>Freie Slots</dt><dd><span data-frei-kurz>nur noch 7</span><small>Stand heute, Termin nach Absprache</small></dd></div>
+      <div class="fakt"><dt>Bis zum Start</dt><dd><span data-countdown>noch 18 Tage</span><small>Reservierung dauert zwei Minuten</small></dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- ============================================================
+     DIE DREI SÄULEN · wortgleich in Anzeige, Newsletter, Formular
+     ============================================================ -->
+<section class="alt" id="reservierung">
+  <div class="wrap">
+    <div class="section-meta">
+      <span class="num">Ihre Reservierung</span>
+    </div>
+    <h2>Das bekommen Sie mit Ihrer Reservierung.</h2>
+    <p class="lead">Alles auf einen Blick. Sie reservieren Ihren Slot, den Termin stimmen wir am Telefon mit Ihnen ab.</p>
+
+    <div class="stack">
+      <ol class="stack-liste">
+        <li>
+          <span class="stack-check" aria-hidden="true">✓</span>
+          <div class="stack-text"><strong>Ihr Slot mit einem persönlichen Whirlpool-Berater</strong><span>Zum abgestimmten Termin, ohne Warten am Stand. Ihr Berater kennt vorab Ihre Gartenmaße und stellt zwei bis drei passende Modelle zusammen. Sie sitzen Probe, in teils befüllten Whirlpools mit laufenden Düsen.</span></div>
+          <span class="stack-wert">reserviert</span>
+        </li>
+        <li>
+          <span class="stack-check" aria-hidden="true">✓</span>
+          <div class="stack-text"><strong>Freikarte für zwei Personen</strong><span>Den Code schickt Ihnen Ihr Berater nach dem Telefonat per E-Mail. Sie lösen ihn auf consumenta.de ein, das Ticket kommt aufs Handy.</span></div>
+          <span class="stack-wert">2 Karten</span>
+        </li>
+        <li>
+          <span class="stack-check" aria-hidden="true">✓</span>
+          <div class="stack-text"><strong>Messepreis bis zu 30 Prozent</strong><span>Auf ausgewählte Modelle am Stand, unter dem Listenpreis. Gilt nur während der Messe, bis zum 8. November.</span></div>
+          <span class="stack-wert">bis 30 %</span>
+        </li>
+        <li>
+          <span class="stack-check" aria-hidden="true">✓</span>
+          <div class="stack-text"><strong>Messe-Paket bei Bestellung am Stand</strong><span>Einstiegstreppe, Ersatzfilter, Pflegeset und Thermoabdeckung mit Coverlifter, zusammen 1.695 Euro.</span></div>
+          <span class="stack-wert">1.695 €</span>
+        </li>
+        <li>
+          <span class="stack-check" aria-hidden="true">✓</span>
+          <div class="stack-text"><strong>Ihr Angebot schriftlich</strong><span>Sie nehmen es mit. Messepreis und Messe-Paket gelten bis zum Messeende am 8. November.</span></div>
+          <span class="stack-wert">inklusive</span>
+        </li>
+        <li>
+          <span class="stack-check" aria-hidden="true">✓</span>
+          <div class="stack-text"><strong>Ihr Berater ruft Sie an</strong><span>Werktags innerhalb weniger Stunden nach der Reservierung. Er stimmt Tag und Uhrzeit mit Ihnen ab und schickt danach den Freikarten-Code.</span></div>
+          <span class="stack-wert">inklusive</span>
+        </li>
+        <li>
+          <span class="stack-check" aria-hidden="true">✓</span>
+          <div class="stack-text"><strong>Kein Kaufzwang</strong><span>Sie kommen, schauen, sitzen Probe und gehen mit Ihrem Angebot nach Hause.</span></div>
+          <span class="stack-wert">garantiert</span>
+        </li>
+      </ol>
+
+      <div class="stack-summe">
+        <div><span class="k">Wert der Zugaben</span><span class="v">über 1.700 €</span></div>
+        <div><span class="k">Ihr Einsatz</span><span class="v">2 Minuten</span></div>
+      </div>
+
+      <div class="stack-cta">
+        <a href="#termin" class="btn btn-primary btn-arrow" data-cta="stack-primary">Termin reservieren</a>
+        <span class="hinweis"><span data-frei-kurz>nur noch 7</span> freie Slots, Termin nach Absprache</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     AM STAND · Fotos und was Besucher erwartet
+     ============================================================ -->
+<section id="stand">
+  <div class="wrap-wide">
+    <div class="wrap" style="padding:0;">
+      <div class="section-meta">
+        <span class="num">Halle 4, Stand B19</span>
+      </div>
+      <h2>Was Sie am Stand erwartet.</h2>
+    </div>
+
+    <div class="stand-galerie">
+      <figure class="gross">
+        <div class="media-slot">
+          <img src="assets/consumenta/team.jpg" alt="Das Team von SPA Deluxe am Messestand hinter einem befüllten Whirlpool" width="1400" height="933" loading="lazy" decoding="async" />
+          <span class="media-caption">Das Team am Stand, Consumenta 2025</span>
+        </div>
+      </figure>
+      <figure>
+        <div class="media-slot">
+          <img src="assets/consumenta/stand.jpg" alt="Whirlpool in Betrieb am Messestand von SPA Deluxe" width="1600" height="720" loading="lazy" decoding="async" />
+          <span class="media-caption">Whirlpools, teils befüllt und in Betrieb</span>
+        </div>
+      </figure>
+    </div>
+
+    <div class="wrap" style="padding:0;">
+      <ul class="stand-liste">
+        <li><span class="check" aria-hidden="true">✓</span><span>Whirlpools verschiedener Größen, teils gefüllt und in Betrieb, zum Probesitzen.</span></li>
+        <li><span class="check" aria-hidden="true">✓</span><span>Vier Marken nebeneinander: Jacuzzi, Vortex Spas, Treesse und Fisher Spas.</span></li>
+        <li><span class="check" aria-hidden="true">✓</span><span>Beratung zu Stellplatz, Stromanschluss und Lieferung, gern mit Ihren Fotos und Maßen.</span></li>
+        <li><span class="check" aria-hidden="true">✓</span><span>Ihr Messe-Angebot schriftlich zum Mitnehmen, gültig bis zum Messeende am 8. November.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     MESSE-PAKET · Bündel vor Rabatt
+     ============================================================ -->
+<section class="alt" id="paket">
+  <div class="wrap-wide">
+    <div class="wrap" style="padding:0;">
+      <div class="section-meta">
+        <span class="num">Messe-Paket</span>
+      </div>
+      <h2>Wer am Stand bestellt, bekommt das Messe-Paket dazu.</h2>
+      <p class="lead">
+        Treppe, Ersatzfilter, Pflegeset und Thermoabdeckung brauchen Sie in den ersten
+        Wochen ohnehin. Im Messe-Paket sind sie drin.
+      </p>
+    </div>
+
+    <div class="paket">
+      <div class="paket-bild">
+        <img src="assets/consumenta/paket.jpg" alt="Whirlpool mit Einstiegstreppe auf einer Terrasse" width="1200" height="814" loading="lazy" decoding="async" />
+        <div class="paket-sticker" aria-hidden="true">
+          <span class="klein">Messepreis</span>
+          <span class="gross">bis 30 %</span>
+          <span class="klein">auf ausgewählte Modelle</span>
+        </div>
+      </div>
+
+      <div class="paket-inhalt">
+        <div class="paket-label">Messe-Paket · nur für Bestellungen am Stand</div>
+        <h3>Dazu geschenkt: das Messe-Paket im Wert von <span class="wert">1.695 €</span>.</h3>
+
+        <ul class="paket-liste">
+          <li><span class="name">Einstiegstreppe<small>passend zum Modell</small></span><span class="preis">199 €</span></li>
+          <li><span class="name">Ersatzfilter<small>für den ersten Wechsel</small></span><span class="preis">149 €</span></li>
+          <li><span class="name">Pflegeset<small>Wasserpflege mit Anleitung</small></span><span class="preis">249 €</span></li>
+          <li><span class="name">Thermoabdeckung mit Coverlifter<small>hält die Wärme im Becken, lässt sich mit einer Hand öffnen</small></span><span class="preis">1.098 €</span></li>
+        </ul>
+
+        <div class="paket-summe">
+          <div class="zeile einzel"><span class="k">Einzelwert zusammen</span><span class="v">1.695 €</span></div>
+          <div class="zeile paket-preis"><span class="k">Im Messe-Paket für Sie</span><span class="v">0<span class="eur">€</span></span></div>
+          <span class="paket-ersparnis">Sie sparen 1.695 €</span>
+        </div>
+
+        <div class="paket-plus">
+          <strong>Dazu bis zu 30 Prozent auf ausgewählte Modelle am Stand.</strong> Beides gilt nur
+          während der Messe, bis zum 8. November.
+        </div>
+
+        <div class="paket-cta">
+          <a href="#termin" class="btn btn-primary btn-arrow" data-cta="paket-primary">Termin reservieren</a>
+          <span class="hinweis">Kein Kaufzwang. Ihr Angebot nehmen Sie schriftlich mit.</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     ABLAUF · vier Schritte
+     ============================================================ -->
+<section id="ablauf">
+  <div class="wrap-wide">
+    <div class="wrap" style="padding:0;">
+      <div class="section-meta">
+        <span class="num">So läuft es ab</span>
+      </div>
+      <h2>Vier Schritte, und Sie wissen genau, was passiert.</h2>
+    </div>
+
+    <ol class="steps-grid steps-grid--vier">
+      <li class="why-card step-card">
+        <span class="num">Sofort</span>
+        <h3>Slot reserviert</h3>
+        <p>Sie sehen Standnummer und Anfahrt direkt nach dem Absenden. Ihr Berater meldet sich werktags innerhalb weniger Stunden.</p>
+      </li>
+      <li class="why-card step-card">
+        <span class="num">Danach</span>
+        <h3>Ihr Berater ruft an</h3>
+        <p>Kurz und konkret: Tag und Uhrzeit, Gartenmaße, Wünsche. Nach dem Gespräch schickt er Ihnen den Freikarten-Code per E-Mail und bereitet zwei bis drei Modelle vor.</p>
+      </li>
+      <li class="why-card step-card">
+        <span class="num">Am Messetag</span>
+        <h3>Halle 4, Stand B19</h3>
+        <p>Zum abgestimmten Termin. Probesitzen, Marken vergleichen, Ihr Messe-Angebot schriftlich. Kein Kaufzwang.</p>
+      </li>
+      <li class="why-card step-card">
+        <span class="num">Bis Messeende</span>
+        <h3>Angebot gilt bis 8. November</h3>
+        <p>Messepreis und Messe-Paket gelten nur während der Consumenta. Danach gilt wieder der Listenpreis.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============================================================
+     BERATER · Team, Auszeichnungen, Bewertungen
+     ============================================================ -->
+<section class="alt" id="berater">
+  <div class="wrap-wide">
+    <div class="wrap" style="padding:0;">
+      <div class="section-meta">
+        <span class="num">Wer Sie berät</span>
+      </div>
+      <h2>Berater, die seit Jahren nichts anderes machen als Whirlpools.</h2>
+      <p class="lead">
+        Am Stand stehen Markus Scheffler und Dominik Schottenhammel aus unseren Ausstellungen. Sie kennen jedes Modell, jede
+        Stellplatz-Frage und jede Lieferung in der Region.
+      </p>
+    </div>
+
+    <div class="wrap" style="padding:0;">
+      <ul class="berater-duo" aria-label="Ihre Berater am Stand">
+        <li>
+          <img src="assets/consumenta/berater-markus.jpg" alt="Markus Scheffler, Whirlpool-Berater bei SPA Deluxe" width="484" height="560" loading="lazy" decoding="async" />
+          <div><strong>Markus Scheffler</strong><span>Whirlpool-Berater, am Stand in Nürnberg</span></div>
+        </li>
+        <li>
+          <img src="assets/consumenta/berater-dominik.jpg" alt="Dominik Schottenhammel, Whirlpool-Berater bei SPA Deluxe" width="533" height="566" loading="lazy" decoding="async" />
+          <div><strong>Dominik Schottenhammel</strong><span>Whirlpool-Berater, am Stand in Nürnberg</span></div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="trust-team-block">
+      <picture>
+        <source media="(max-width: 767px)" type="image/webp" srcset="assets/trust-team-mobile.webp" />
+        <source media="(max-width: 767px)" type="image/jpeg" srcset="assets/trust-team-mobile.jpg" />
+        <source type="image/webp" srcset="assets/trust-team.webp" />
+        <img src="assets/trust-team.jpg" alt="Die Berater von SPA Deluxe. Deutscher Kunden-Award der DtGV: 1. Platz für Kundenzufriedenheit. Google: 4,8 Sterne aus über 560 Bewertungen." width="1300" height="780" loading="lazy" decoding="async" />
+      </picture>
+    </div>
+
+    <div class="wrap" style="padding:0;">
+      <div class="trust-strip" style="margin-top:1.5rem;">
+        <span class="trust-pill"><span class="dot"></span> DtGV-Ausgezeichnet · 7× 1. Platz</span>
+        <span class="trust-pill"><span class="dot"></span> 9 Jahre am Markt</span>
+        <span class="trust-pill"><span class="dot"></span> 6 Ausstellungen in Deutschland</span>
+        <span class="trust-pill"><span class="dot"></span> Über 4.000 verkaufte Whirlpools</span>
+        <span class="trust-pill"><span class="dot"></span> Nr. 1 Händler für Jacuzzi, Vortex Spas, Treesse und Fisher Spas</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FAQ
+     ============================================================ -->
+<section id="fragen">
+  <div class="wrap">
+    <div class="section-meta">
+      <span class="num">Häufige Fragen</span>
+    </div>
+    <h2>Was Besucher uns vor der Messe fragen.</h2>
+
+    <div class="faq-list" role="list">
+      <article class="faq-item open" role="listitem">
+        <button class="faq-q" aria-expanded="true">
+          <span>„Kann ich auch ohne Termin vorbeikommen?"</span>
+          <span class="icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">
+            <p>
+              Ja, täglich von 10 bis 18 Uhr, Einlass bis 17 Uhr. Mit Termin wartet Ihr Berater auf
+              Sie und hat Ihre Modelle vorbereitet. Die Freikarte gibt es nur mit Reservierung.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="faq-item" role="listitem">
+        <button class="faq-q" aria-expanded="false">
+          <span>„Was kostet der Termin?"</span>
+          <span class="icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">
+            <p>
+              Nichts. Der Eintritt für zwei Personen ist frei, die Beratung auch. Eine
+              Kaufverpflichtung gibt es nicht.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="faq-item" role="listitem">
+        <button class="faq-q" aria-expanded="false">
+          <span>„Ich kann den Termin doch nicht wahrnehmen."</span>
+          <span class="icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">
+            <p>
+              Ein Anruf genügt: <a href="tel:+4925974753015">02597 4753015</a>. Wir geben den Platz
+              weiter und finden einen neuen Termin, auf der Messe oder in unserer Ausstellung in Fürth.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="faq-item" role="listitem">
+        <button class="faq-q" aria-expanded="false">
+          <span>„Gilt der Messepreis auch nach der Messe?"</span>
+          <span class="icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">
+            <p>
+              Nein. Messepreis und Messe-Paket gelten nur während der Consumenta, bis zum 8. November 2026.
+              Danach gilt wieder der Listenpreis.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="faq-item" role="listitem">
+        <button class="faq-q" aria-expanded="false">
+          <span>„Wie schnell kann der Whirlpool bei mir stehen?"</span>
+          <span class="icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">
+            <p>
+              In der Regel in drei bis sechs Wochen. Den genauen Termin stimmen wir mit Ihnen ab,
+              Lieferung und Aufstellung übernehmen wir auf Wunsch komplett.
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TERMIN · Kontaktdaten (Zoho Web-to-Lead) + Bestätigung
+     data-funnel geht als Parameter in die Messereignisse, data-pdf-name als content_name ins Meta-Ereignis Lead.
+     ============================================================ -->
+<section class="final-cta-section" id="termin" data-funnel="consumenta" data-pdf="" data-pdf-name="Consumenta 2026 Beratungstermin">
+  <div class="wrap">
+    <div class="section-meta">
+      <span class="num" style="color:rgba(255,255,255,0.5);">Termin reservieren</span>
+    </div>
+    <h2>Reservieren Sie Ihren Slot.</h2>
+    <p class="lead">
+      Nur noch wenige Plätze. Den genauen Termin besprechen Sie am Telefon mit Ihrem
+      Whirlpool-Experten, Bestätigung und Freikarte kommen danach per E-Mail.
+    </p>
+
+    <div class="form-wrap" id="lead-box">
+      <div class="form-step" id="step-kontakt">
+        <h3>Ihr Beratungstermin auf der Consumenta</h3>
+        <p class="form-sub">Ihre Kontaktdaten, dauert eine Minute. <span data-frei-kurz>Nur noch 7</span> freie Slots.</p>
+        <ul class="form-inklusive" aria-label="In Ihrer Reservierung enthalten">
+          <li>Slot mit Berater</li>
+          <li>Freikarte für zwei</li>
+          <li>Messepreis bis 30 %</li>
+          <li>Messe-Paket 1.695 €</li>
+          <li>Kein Kaufzwang</li>
+        </ul>
+
+        <form id="lead-form" action="https://crm.zoho.eu/crm/WebToLeadForm" method="POST" target="zoho-lead-sink" accept-charset="UTF-8" novalidate>
+          <!-- Zoho-Webformular „Consumenta-LP Beratungstermin": Kennungen nach dem Anlegen eintragen. Solange die Kennungen
+               mit TODO beginnen, sendet app.js nichts und zeigt nur die Bestätigung. -->
+          <input type="hidden" name="xnQsjsdp" value="TODO-consumenta-2026" />
+          <input type="hidden" name="xmIwtLD" value="TODO-consumenta-2026" />
+          <input type="hidden" name="actionType" value="TGVhZHM=" />
+          <input type="hidden" name="returnURL" value="https://consumenta.spadeluxe.de/" />
+          <input type="hidden" name="Lead Source" value="Lead: Consumenta" />
+          <!-- Interesse und Herkunft als Text (consumenta.js). -->
+          <input type="hidden" name="Description" id="lead-description" value="" />
+
+          <!-- Attribution wie auf der Bauherren-Seite: app.js füllt die Werte aus currentAttribution(). -->
+          <input type="hidden" name="LEADCF157" data-attr="utm_source" data-max="100" />
+          <input type="hidden" name="LEADCF156" data-attr="utm_medium" data-max="100" />
+          <input type="hidden" name="LEADCF159" data-attr="utm_campaign" data-max="100" />
+          <input type="hidden" name="LEADCF158" data-attr="gclid" data-max="255" />
+          <input type="hidden" name="zc_gad" data-attr="gclid" />
+          <input type="hidden" name="LEADCF177" data-attr="utm_content" data-max="255" />
+          <input type="hidden" name="LEADCF178" data-attr="fbclid" data-max="255" />
+          <!-- Nächste Ausstellung aus der PLZ (app.js): Filiale als Text, Territory als Auswahl. -->
+          <input type="hidden" name="LEADCF169" data-filiale data-max="255" />
+          <input type="hidden" name="LEADCF17" data-territory />
+          <!-- Zoho-eigenes Honeypot-Feld: muss leer mitgesendet werden -->
+          <input type="hidden" name="aG9uZXlwb3Q" value="" />
+
+          <!-- Honeypot für Bots (offscreen, nicht display:none) -->
+          <div class="hp-field" aria-hidden="true">
+            <label for="website_url">Website (bitte frei lassen)</label>
+            <input type="text" id="website_url" name="website_url" tabindex="-1" autocomplete="off" />
+          </div>
+
+          <div class="field">
+            <label id="interesse-label">Was interessiert Sie?</label>
+            <div class="chip-row" role="group" aria-labelledby="interesse-label" data-interesse>
+              <button type="button" class="chip" aria-pressed="true" data-wert="Whirlpool">Whirlpool</button>
+              <button type="button" class="chip" aria-pressed="false" data-wert="Swim Spa">Swim Spa</button>
+              <button type="button" class="chip" aria-pressed="false" data-wert="Noch offen">Noch offen</button>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="lead-first">Vorname</label>
+              <input type="text" id="lead-first" name="First Name" autocomplete="given-name" />
+            </div>
+            <div class="field">
+              <label for="lead-last">Nachname <span class="field-req">*</span></label>
+              <input type="text" id="lead-last" name="Last Name" autocomplete="family-name" aria-describedby="err-lead-last" />
+              <p class="field-error" id="err-lead-last" role="status" aria-live="polite"></p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="lead-email">E-Mail <span class="field-req">*</span></label>
+            <input type="email" id="lead-email" name="Email" autocomplete="email" inputmode="email" aria-describedby="err-lead-email" />
+            <p class="field-error" id="err-lead-email" role="status" aria-live="polite"></p>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="lead-phone">Telefon <span class="field-req">*</span></label>
+              <input type="tel" id="lead-phone" name="Phone" autocomplete="tel" inputmode="tel" aria-describedby="err-lead-phone" />
+              <p class="field-error" id="err-lead-phone" role="status" aria-live="polite"></p>
+            </div>
+            <div class="field field-plz">
+              <label for="lead-plz">Postleitzahl <span class="field-req">*</span></label>
+              <input type="text" id="lead-plz" name="Zip Code" autocomplete="postal-code" inputmode="numeric" pattern="[0-9]*" maxlength="5" aria-describedby="err-lead-plz hint-lead-plz" />
+              <p class="field-hint" id="hint-lead-plz" aria-live="polite"></p>
+              <p class="field-error" id="err-lead-plz" role="status" aria-live="polite"></p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="lead-herkunft">Wie haben Sie von der Aktion erfahren?</label>
+            <select id="lead-herkunft">
+              <option value="">Bitte wählen (optional)</option>
+              <option value="Newsletter">Newsletter von SPA Deluxe</option>
+              <option value="Instagram oder Facebook">Instagram oder Facebook</option>
+              <option value="Google">Google</option>
+              <option value="Empfehlung">Empfehlung</option>
+              <option value="Messe-Programm">Programm der Consumenta</option>
+              <option value="Sonstiges">Sonstiges</option>
+            </select>
+          </div>
+
+          <div class="field field-consent">
+            <label class="consent-label" for="lead-consent">
+              <input type="checkbox" id="lead-consent" name="privacyConsent" value="ja" aria-describedby="err-lead-consent" />
+              <span>Ich bin einverstanden, dass SPA Deluxe mich zur Terminabsprache anruft und mir danach die
+                Freikarte per E-Mail schickt.
+                <a href="https://spadeluxe.de/datenschutz/" target="_blank" rel="noopener">Datenschutzerklärung</a></span>
+            </label>
+            <p class="field-error" id="err-lead-consent" role="status" aria-live="polite"></p>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-arrow" id="lead-submit">Slot reservieren</button>
+        </form>
+
+        <p class="form-foot">
+          Lieber telefonisch? Rufen Sie uns direkt an:
+          <a href="tel:+4925974753015">02597 4753015</a>
+        </p>
+      </div>
+
+      <iframe name="zoho-lead-sink" title="Zoho" hidden aria-hidden="true"></iframe>
+
+      <!-- Bestätigung (app.js → showSuccess). Phase 1 kurz der Balken, Phase 2 die Karte mit Stand,
+           Rückruf und Freikarte. Der Termin wird am Telefon abgestimmt. -->
+      <div class="lead-success" id="lead-success" data-phase="prep" hidden>
+        <div class="lead-prep">
+          <div class="lead-prep-bar" aria-hidden="true"><span class="lead-prep-bar-fill"></span></div>
+          <p class="lead-prep-text" role="status">Ihr Slot wird reserviert …</p>
+        </div>
+
+        <div class="lead-done">
+          <svg class="lead-check" viewBox="0 0 56 56" width="56" height="56" aria-hidden="true" focusable="false">
+            <circle class="lead-check-bg" cx="28" cy="28" r="25" />
+            <circle class="lead-check-ring" cx="28" cy="28" r="25" />
+            <path class="lead-check-tick" d="M17 29.5l7.2 7.2L39.5 21" />
+          </svg>
+          <h3 class="lead-done-title" id="lead-success-title" tabindex="-1">Danke<span data-lead-name hidden>, <span data-lead-first></span></span>. Ihr Slot ist reserviert.</h3>
+
+          <div class="ticket" aria-label="Ihre Reservierung">
+            <div class="ticket-kopf">
+              <span class="t1">Consumenta Nürnberg</span>
+              <span class="t2">Beratungstermin SPA Deluxe</span>
+            </div>
+            <div class="ticket-zeile"><span class="k">Wann</span><span class="v">Tag und Uhrzeit stimmt Ihr Berater am Telefon mit Ihnen ab</span></div>
+            <div class="ticket-zeile"><span class="k">Wo</span><span class="v">Messe Nürnberg, Halle 4, Stand B19</span></div>
+            <div class="ticket-zeile"><span class="k">Ihr Berater</span><span class="v">ruft Sie werktags innerhalb weniger Stunden an</span></div>
+            <div class="ticket-zeile"><span class="k">Freikarte</span><span class="v">Code für zwei Personen kommt nach dem Gespräch per E-Mail</span></div>
+          </div>
+
+          <div class="ticket-aktionen">
+            <a class="btn btn-secondary" href="https://maps.google.com/?q=Messezentrum+1,+90471+N%C3%BCrnberg" target="_blank" rel="noopener">Anfahrt zur Messe</a>
+          </div>
+
+          <div class="lead-done-note">
+            <p>Nach dem Telefonat schickt Ihnen Ihr Berater den Freikarten-Code per E-Mail. Prüfen Sie auch den Spam-Ordner.</p>
+            <p class="lead-done-fast">Nichts bekommen oder Termin ändern? <a href="tel:+4925974753015">02597 4753015</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="brands" aria-label="Marken am Stand">
+      <span class="brand">Jacuzzi</span>
+      <span class="brand">Vortex Spas</span>
+      <span class="brand">Treesse</span>
+      <span class="brand">Fisher Spas</span>
+    </div>
+
+    <div class="trust-strip">
+      <span class="trust-pill"><span class="dot"></span> DtGV-Ausgezeichnet · 7× 1. Platz</span>
+      <span class="trust-pill"><span class="dot"></span> 9 Jahre am Markt</span>
+      <span class="trust-pill"><span class="dot"></span> 6 Ausstellungen in Deutschland</span>
+      <span class="trust-pill"><span class="dot"></span> 4,8 ★ bei Google</span>
+      <span class="trust-pill"><span class="dot"></span> 4.000+ verkaufte Whirlpools</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="site-footer">
+  <div class="wrap site-footer-inner">
+    <img src="assets/logo-white.png" alt="SPA Deluxe" class="footer-logo" />
+    <span class="footer-divider">·</span>
+    <span>SPA Deluxe GmbH</span>
+    <span class="footer-divider">·</span>
+    <a href="https://spadeluxe.de/impressum/" target="_blank" rel="noopener">Impressum</a>
+    <span class="footer-divider">·</span>
+    <a href="https://spadeluxe.de/datenschutz/" target="_blank" rel="noopener">Datenschutz</a>
+  </div>
+</footer>
+
+<!-- ============================================================
+     DSGVO Cookie-Banner
+     ============================================================ -->
+<div class="cookie-banner" id="cookie-banner" role="dialog" aria-labelledby="cookie-title" aria-describedby="cookie-desc" aria-hidden="true">
+  <h4 id="cookie-title">Cookies &amp; Privatsphäre</h4>
+  <p id="cookie-desc">
+    Wir verwenden Cookies, um die Funktion dieser Seite zu gewährleisten.
+    Wenn Sie „Alle akzeptieren" wählen, laden wir zusätzlich Dienste für
+    Statistik und Werbung: Google Analytics, Meta und Usermaven. Details
+    finden Sie in unserer
+    <a href="https://spadeluxe.de/datenschutz/" target="_blank" rel="noopener">Datenschutzerklärung</a>.
+  </p>
+  <div class="cookie-actions">
+    <button type="button" class="btn btn-primary" data-cookie="all">Alle akzeptieren</button>
+    <button type="button" class="cookie-essential" data-cookie="essential">Nur Notwendige</button>
+  </div>
+</div>
+
+<!-- consumenta.js vor app.js: Es schreibt Interesse und Herkunft in das Feld Description, bevor app.js das Formular absendet. -->
+<script src="consumenta.js" defer></script>
+<script src="app.js" defer></script>
+</body>
+</html>
